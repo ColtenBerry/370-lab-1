@@ -31,7 +31,7 @@ public class FishBehavior : MonoBehaviour
         {
             Debug.Log("hook collision");
             stage = 1;
-
+            hook = collision.gameObject;
         }
     }
 
