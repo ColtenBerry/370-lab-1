@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  click: 0
+  stage: 0
 --- !u!212 &1242019657
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -519,6 +519,7 @@ GameObject:
   - component: {fileID: 2094766264}
   - component: {fileID: 2094766263}
   - component: {fileID: 2094766266}
+  - component: {fileID: 2094766267}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -669,6 +670,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2094766267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094766262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 419ba1f1fce79ae4e957673f273d1330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: 0
+  speed: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

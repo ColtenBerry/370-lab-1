@@ -16,7 +16,7 @@ public class HookBehavior : MonoBehaviour
     {
         Debug.Log("collision!");
     }
-    void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("trigger");
         stage = 2;
