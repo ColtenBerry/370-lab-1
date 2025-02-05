@@ -4,7 +4,7 @@ public class FishBehavior : MonoBehaviour
 {
     GameObject hook;
     public int stage = 0;
-    public float speed = 2.0f;
+    public float speed = 5.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +19,11 @@ public class FishBehavior : MonoBehaviour
             case 0:
                 break;
             case 1:
-                transform.Translate(Vector3.up * speed * Time.deltaTime);
+                transform.Translate(Vector3.up * speed * Time.deltaTime * 2);
+                if (transform.position.y > 3.1)
+                {
+                    Destroy(gameObject);
+                }
                 break;
         }
     }
@@ -31,7 +35,6 @@ public class FishBehavior : MonoBehaviour
         {
             Debug.Log("hook collision");
             stage = 1;
-            hook = collision.gameObject;
         }
     }
 

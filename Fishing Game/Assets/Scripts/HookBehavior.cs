@@ -33,14 +33,18 @@ public class HookBehavior : MonoBehaviour
 
         switch (stage)
         {
-            case 0:
+            case 0: //hook follows mouse
                 Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 transform.position = new Vector2(pos.x, transform.position.y);
                 break;
-            case 1:
+            case 1: //hook goes down
                 transform.Translate(0, -(speed * Time.deltaTime), 0);
+                if (transform.position.y < -5)
+                {
+                    stage = 2;
+                }
                 break;
-            case 2:
+            case 2: //hook goes up
                 transform.Translate(0, speed * Time.deltaTime * 2, 0);
                 if (transform.position.y > 3.1)
                 {
