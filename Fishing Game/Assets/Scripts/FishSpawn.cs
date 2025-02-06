@@ -3,7 +3,9 @@ using UnityEngine;
 public class FishSpawn : MonoBehaviour
 {
 
-    public GameObject fish;
+    public GameObject bigfish;
+    public GameObject mediumfish;
+    public GameObject smallfish;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,6 +20,8 @@ public class FishSpawn : MonoBehaviour
     }
 
     void CreateFish() {
-        Instantiate(fish);
+        Instantiate(bigfish);
+        Instantiate(mediumfish);
+        Instantiate(smallfish);
     }
 }

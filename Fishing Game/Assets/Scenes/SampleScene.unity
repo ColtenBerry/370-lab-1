@@ -449,7 +449,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cbc13a958a106d4b9632c6dae00b2a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fish: {fileID: 2842900883577981417, guid: 9813f82917beb6a43a027eb5a6e907ae, type: 3}
+  bigfish: {fileID: 2842900883577981417, guid: 9813f82917beb6a43a027eb5a6e907ae, type: 3}
+  mediumfish: {fileID: 2842900883577981417, guid: b7aa2886957fcd74d8332d870dd8c00b, type: 3}
+  smallfish: {fileID: 2842900883577981417, guid: 63b7e7149c9bd344188e4c2da0703e2a, type: 3}
 --- !u!212 &739103780
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -813,8 +815,8 @@ Transform:
   m_GameObject: {fileID: 1267610608}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: -1.5, z: 0}
-  m_LocalScale: {x: 1.0678552, y: 0.6360644, z: 1}
+  m_LocalPosition: {x: -0.0614, y: 0.0174, z: 0}
+  m_LocalScale: {x: 1.0583514, y: 0.91707766, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
