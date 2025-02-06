@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class FishBehavior : MonoBehaviour
 {
-    GameObject hook;
+    public GameObject hook;
+
     public int stage = 0;
+
+    public float swimSpeedMedium = 3.0f;
     public float speed = 5.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,6 +20,7 @@ public class FishBehavior : MonoBehaviour
         switch (stage)
         {
             case 0:
+                transform.Translate(Vector3.right * swimSpeedMedium * Time.deltaTime);
                 break;
             case 1:
                 transform.Translate(Vector3.up * speed * Time.deltaTime * 2);

@@ -123,6 +123,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -359,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      11949854722055250529seahorse.svg.med_0: -545489260043091783
+      11949854722055250529seahorse.svg.med_1: -2591234235253291858
+      11949854722055250529seahorse.svg.med_2: 8239782839176864093
+      11949854722055250529seahorse.svg.med_3: 617212889048340457
+      11949854722055250529seahorse.svg.med_4: 6379844926490512109
+      11949854722055250529seahorse.svg.med_5: -3034324404893759355
+      11949854722055250529seahorse.svg.med_6: -7339336430595246284
+      11949854722055250529seahorse.svg.med_7: -9096640817348561986
+      11949854722055250529seahorse.svg.med_8: -3208383504626489987
+      11949854722055250529seahorse.svg.med_9: 1603909028174962147
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

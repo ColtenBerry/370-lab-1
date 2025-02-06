@@ -175,5 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419ba1f1fce79ae4e957673f273d1330, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hook: {fileID: 0}
   stage: 0
   speed: 5
