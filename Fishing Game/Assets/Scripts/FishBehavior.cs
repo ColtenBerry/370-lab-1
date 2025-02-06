@@ -28,7 +28,7 @@ public class FishBehavior : MonoBehaviour
                 {
                     Destroy(gameObject);
                     GameManager.Instance.IncScore(1);
-                    Debug.Log("Inc Score!");
+                    // Debug.Log("Inc Score!");
                 }
                 break;
         }
@@ -39,7 +39,7 @@ public class FishBehavior : MonoBehaviour
         Debug.Log(collision);
         if (collision.gameObject.name == "Hook")
         {
-            Debug.Log("hook collision");
+            // Debug.Log("hook collision");
             stage = 1;
         }
     }

@@ -14,11 +14,11 @@ public class HookBehavior : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("collision!");
+        // Debug.Log("collision!");
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("trigger");
+        // Debug.Log("trigger");
         stage = 2;
     }
 
@@ -28,7 +28,7 @@ public class HookBehavior : MonoBehaviour
         if (Input.GetKey("mouse 0"))
         {
             stage = 1;
-            Debug.Log("click!");
+            // Debug.Log("click!");
         }
 
         switch (stage)
