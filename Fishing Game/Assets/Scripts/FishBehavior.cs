@@ -31,7 +31,7 @@ public class FishBehavior : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision);
-        if (collision.gameObject.name == "Circle")
+        if (collision.gameObject.name == "Hook")
         {
             Debug.Log("hook collision");
             stage = 1;
