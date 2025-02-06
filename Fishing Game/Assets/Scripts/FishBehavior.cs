@@ -27,6 +27,8 @@ public class FishBehavior : MonoBehaviour
                 if (transform.position.y > 3.1)
                 {
                     Destroy(gameObject);
+                    GameManager.Instance.IncScore(1);
+                    Debug.Log("Inc Score!");
                 }
                 break;
         }
