@@ -10,7 +10,7 @@ public class FishBehavior : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -20,7 +20,11 @@ public class FishBehavior : MonoBehaviour
         switch (stage)
         {
             case 0:
-                transform.Translate(Vector3.right * fishspeed* Time.deltaTime);
+                transform.Translate(Vector3.right * fishspeed * Time.deltaTime);
+                if (transform.position.x > 12)
+                {
+                    Destroy(gameObject);
+                }
                 break;
             case 1:
                 transform.Translate(Vector3.up * speed * Time.deltaTime * 2);
