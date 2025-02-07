@@ -1,6 +1,6 @@
 # 370-lab-1
 **Game Name:** 
-Gone Fishing
+Gone Fishing \n
 **Intent:** 
 Create a game revolving arounf the topic "Fish", while providing a clean and relaxing or competitive experince for the player.
 **Narritive Structure:** 
