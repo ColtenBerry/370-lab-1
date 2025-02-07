@@ -11,9 +11,9 @@ public class FishSpawn : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InvokeRepeating("CreateBigFish", 4.0f, Random.Range(6.0f, 8.0f));
-        InvokeRepeating("CreateSmallFish", 1.0f, Random.Range(2.0f, 3.5f));
-        InvokeRepeating("CreateMediumFish", 3.0f, Random.Range(3.5f, 5.0f));
+        InvokeRepeating("CreateBigFish", 4.0f, Random.Range(4.0f, 8.0f));
+        InvokeRepeating("CreateSmallFish", 1.0f, Random.Range(1.5f, 3.0f));
+        InvokeRepeating("CreateMediumFish", 3.0f, Random.Range(3.0f, 5.0f));
     }
 
     // Update is called once per frame
