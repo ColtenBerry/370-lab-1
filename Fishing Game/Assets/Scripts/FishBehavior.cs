@@ -6,7 +6,6 @@ public class FishBehavior : MonoBehaviour
 
     public int stage = 0;
 
-    public float swimSpeedMedium = 3.0f;
     public float speed = 5.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,10 +16,11 @@ public class FishBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        var fishspeed = 3.0f;//Random.Range(1.0f, 6.5f);
         switch (stage)
         {
             case 0:
-                transform.Translate(Vector3.right * swimSpeedMedium * Time.deltaTime);
+                transform.Translate(Vector3.right * fishspeed* Time.deltaTime);
                 break;
             case 1:
                 transform.Translate(Vector3.up * speed * Time.deltaTime * 2);

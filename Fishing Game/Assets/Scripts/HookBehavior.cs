@@ -39,14 +39,14 @@ public class HookBehavior : MonoBehaviour
                 break;
             case 1: //hook goes down
                 transform.Translate(0, -(speed * Time.deltaTime), 0);
-                if (transform.position.y < -5)
+                if (transform.position.y < 1.0)
                 {
                     stage = 2;
                 }
                 break;
             case 2: //hook goes up
                 transform.Translate(0, speed * Time.deltaTime * 2, 0);
-                if (transform.position.y > 3.1)
+                if (transform.position.y > 10.785)
                 {
                     stage = 0;
                 }
