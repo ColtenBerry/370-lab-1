@@ -3,6 +3,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public AudioSource audioSourse;
 
     int score = 0;
     public TextMeshProUGUI scoreText;
@@ -25,7 +26,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSourse = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -38,6 +39,7 @@ public class GameManager : MonoBehaviour
     {
         score += ds;
         scoreText.text = "Score: " + score;
+        audioSourse.Play();
     }
 
 }

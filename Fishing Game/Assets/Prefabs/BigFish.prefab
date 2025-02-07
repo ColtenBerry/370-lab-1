@@ -177,5 +177,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hook: {fileID: 0}
   stage: 0
-  swimSpeedMedium: 3
   speed: 5
